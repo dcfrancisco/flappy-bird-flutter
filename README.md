@@ -19,7 +19,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
    ```sh
    git clone git@github.com:dcfrancisco/flappy-bird-flutter.git flappy_bird
-   
+
    cd flappy_bird
    ```
 
@@ -65,11 +65,9 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
 
 Feel free to customize the repository URL, project structure, and any other details specific to your project.
 
-   ```
 
 
 ## Game assets
