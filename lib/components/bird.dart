@@ -24,7 +24,7 @@ class Bird extends SpriteAnimationComponent with CollisionCallbacks {
     await super.onLoad();
     var images = Images();
     final spriteSheet = await images.load('bird_spritesheet.png');
-    final spriteSize = Vector2(34.0, 24.0);
+    final spriteSize = Vector2(24.0, 24.0);
 
     // Create the animation
     final spriteAnimation = SpriteAnimation.fromFrameData(
