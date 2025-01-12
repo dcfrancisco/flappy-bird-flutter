@@ -11,3 +11,4 @@ const double pipeHeight = 300;
 const double pipeWidth = 100;
 const double pipeGap = 200;
 const double minPipeHeight = 50;
+const double velocity = 0.0;

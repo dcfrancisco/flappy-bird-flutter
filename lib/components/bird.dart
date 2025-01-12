@@ -1,3 +1,4 @@
+import 'package:flame/cache.dart';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 
@@ -6,7 +7,7 @@ import '../flappy_bird_game.dart';
 import 'ground.dart';
 import 'pipe.dart';
 
-class Bird extends SpriteComponent with CollisionCallbacks {
+class Bird extends SpriteAnimationComponent with CollisionCallbacks {
   Bird()
       : super(
           position: Vector2(birdStartX, birdStartY),
@@ -21,7 +22,21 @@ class Bird extends SpriteComponent with CollisionCallbacks {
   @override
   Future<void> onLoad() async {
     await super.onLoad();
-    sprite = await Sprite.load('bird.png');
+    var images = Images();
+    final spriteSheet = await images.load('bird_spritesheet.png');
+    final spriteSize = Vector2(28.0, 18.0);
+
+    // Create the animation
+    final spriteAnimation = SpriteAnimation.fromFrameData(
+      spriteSheet,
+      SpriteAnimationData.sequenced(
+        amount: 3, // Number of frames
+        stepTime: 0.1, // Time per frame
+        textureSize: spriteSize,
+      ),
+    ); // Set the animation
+
+    animation = spriteAnimation;
 
     add(RectangleHitbox());
   }

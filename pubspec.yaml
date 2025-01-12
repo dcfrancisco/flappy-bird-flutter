@@ -61,6 +61,7 @@ flutter:
   assets:
 
     - assets/images/bird.png
+    - assets/images/bird_spritesheet.png
     - assets/images/background.png
     - assets/images/ground.png
     - assets/images/pipe-top.png
