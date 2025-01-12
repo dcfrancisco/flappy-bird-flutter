@@ -26,7 +26,7 @@ To get started with this project, follow these steps:
 
 ## Game Controls
 
-- **Tap/Click:** Make the bird flap its wings and fly upwards.
+- **Tap/Click:** Make the bird flap its wings and fly upwards (Oh! need to add flapping of wings).
 
 ## Game Assets
 
