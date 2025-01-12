@@ -1,13 +1,4 @@
-# flappy_bird
 
-A new Flutter project.
-Sure! Here's an improved version of your 
-
-README.md
-
-:
-
-```markdown
 # Flappy Bird
 
 A new Flutter project that recreates the classic Flappy Bird game using the Flame game engine.
