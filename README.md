@@ -18,7 +18,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/flappy_bird.git
+   git clone git@github.com:dcfrancisco/flappy-bird-flutter.git flappy_bird
+   
    cd flappy_bird
    ```
 
@@ -67,16 +68,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ```
 
 Feel free to customize the repository URL, project structure, and any other details specific to your project.
-## Getting Started
-
-To run this Flutter project, follow these steps:
-
-1. **Clone the repository**:
-   ```sh
-
-   git clone git@github.com:dcfrancisco/flappy-bird-flutter.git flappy_bird
-
-   cd flappy_bird
 
    ```
 
@@ -90,6 +81,11 @@ The game assets used in this project can be found at:
 </div>
 
 - [Flappy Bird Sprites](https://www.spriters-resource.com/mobile/flappybird/sheet/59894/)
+
+
+## Tutorial
+
+This project is based on the tutorial by [The Flutter Way: Build Flappy Bird with Flutter & Flame](https://www.youtube.com/watch?v=qADIcXTDFGs) this is based on  this video by [Mitch Koko](https://www.youtube.com/@createdbykoko).
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
